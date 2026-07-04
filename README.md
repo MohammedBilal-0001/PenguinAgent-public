@@ -55,7 +55,7 @@ The platform is built to support:
 
 A **Ministry of Education deployment** currently operates as a reference client, using a bring-your-own-key (BYOK) model.
 
-> 📸 `[Placeholder: platform overview / landing screenshot]`
+> 📸 ![Architecture](https://github.com/MohammedBilal-0001/PenguinAgent-public/blob/main/Images/photo_2026-04-08_16-52-08.jpg "Inference example")
 
 ---
 
@@ -94,7 +94,7 @@ This separation keeps the following independent and swappable:
 
 New providers, tools, and tenants can be added without modifying the core workflow. Each tenant maintains its own **separate billing configuration**.
 
-> 📸 `[Placeholder: system architecture diagram]`
+> 📸 ![Architecture](https://github.com/MohammedBilal-0001/PenguinAgent-public/blob/main/Images/Screenshot%202026-05-16%20211246.png "Dynamic tool picker")
 
 ---
 
@@ -112,7 +112,7 @@ agent_reasoning → tool_invocation → final_communication
 
 This **two-model architecture** reduced operational costs while preserving reasoning performance.
 
-> 📸 `[Placeholder: LangGraph workflow diagram]`
+> 📸 ![Architecture](https://github.com/MohammedBilal-0001/PenguinAgent-public/blob/main/Images/Screenshot%202026-05-16%20205032.png "Dynamic tool picker")
 
 ---
 
@@ -135,7 +135,7 @@ Every tenant has fully isolated:
 
 Cross-tenant access is prevented at **both** the application layer and the database query layer.
 
-> 📸 `[Placeholder: tenant admin dashboard screenshot]`
+> 📸 ![Architecture](https://github.com/MohammedBilal-0001/PenguinAgent-public/blob/main/Images/Screenshot%202026-05-16%20201708.png "no cross tenant")
 
 ---
 
@@ -156,7 +156,7 @@ To reduce unnecessary embedding costs:
 
 The system also reconstructs incomplete chunk groups before answer generation, reducing hallucinations caused by partial retrieval.
 
-> 📸 `[Placeholder: RAG pipeline diagram]`
+
 
 ---
 
@@ -228,5 +228,7 @@ Penguin Agent was designed as a real-world AI platform rather than a prototype c
 This project significantly deepened my experience in **AI infrastructure, backend architecture, RAG systems, agentic workflows, and distributed SaaS design.**
 
 ---
+### More ScreenShots
 
-📫 **More projects & contact:** [Portfolio](https://nettle-guanaco-69b.notion.site/Mohammed-Bilal-AI-Engineer-Portfolio-32fce6813e4b8018b7faccdbcf7f24fd) · [LinkedIn](https://www.linkedin.com/in/mohammed-bilal-7a1a2a35b) · [mohammed.bilalgr@gmail.com](mailto:mohammed.bilalgr@gmail.com)
+https://github.com/MohammedBilal-0001/PenguinAgent-public/tree/main/Images
+📫 **More projects & contact:** · [LinkedIn](https://www.linkedin.com/in/mohammed-bilal-7a1a2a35b) · [mohammed.bilalgr@gmail.com](mailto:mohammed.bilalgr@gmail.com)
